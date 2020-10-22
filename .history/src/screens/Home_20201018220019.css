@@ -1,0 +1,18 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* background-color: red; */
+}
+
+.home__searchBar{
+    display:grid;
+    place-items: center;
+    margin-top: 10%;
+}
+
+/* .home__searchBar> img{
+    object-fit: contain;
+    height: 100px;
+} */
+

@@ -1,0 +1,28 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* background-color: red; */
+}
+
+.search__bar{
+    display:grid;
+    place-items: center;
+}
+
+.search__bar > .input__search{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 33px;
+    padding: 5px 10px;
+}
+
+.search__bar > .input__search > input{
+    border:none;
+    ou
+}
+
+.search__bar > .input__search > .search__icon{
+    color: gray;
+}

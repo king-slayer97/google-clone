@@ -1,0 +1,13 @@
+.searchPage__header{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    
+}
+
+.searchPage__logo{
+    object-fit: contain;
+    height: 50px;
+    /* padding: 15px; */
+    margin-right: 50px;
+}

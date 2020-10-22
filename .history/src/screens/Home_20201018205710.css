@@ -1,0 +1,15 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* background-color: red; */
+}
+
+.search__bar{
+    display:grid;
+    place-items: center;
+}
+
+.search__bar > .input__search{
+    
+}

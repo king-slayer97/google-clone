@@ -1,0 +1,17 @@
+
+.search__input{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    padding: 5px 10px;
+}
+
+.search__input > input{
+    border:none;
+    outline-width: 0;
+}
+
+.search__input > .search__inputIcon{
+    color: gray;
+}

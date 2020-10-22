@@ -1,0 +1,34 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* background-color: red; */
+}
+
+.home__searchBar{
+    display:grid;
+    place-items: center;
+}
+
+.home__searchBar> img{
+    object-fit: contain;
+    height: 100px;
+}
+
+.search__bar > .input__search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 33px;
+    padding: 5px 10px;
+}
+
+.search__bar > .input__search > input{
+    border:none;
+    outline-width: 0;
+}
+
+.search__bar > .input__search > .search__icon{
+    color: gray;
+}

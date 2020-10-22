@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    position: sticky;
+    top:0;
+    z-index: 999;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+}
+
+.header__right > .MuiSvgIcon-root{
+    padding: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.header__left{
+    padding: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}

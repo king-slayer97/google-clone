@@ -1,0 +1,21 @@
+
+.search__input{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    padding: 10px 20px;
+    height: 30px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: ;
+}
+
+.search__input > input{
+    border:none;
+    outline-width: 0;
+}
+
+.search__input > .search__inputIcon{
+    color: gray;
+}
